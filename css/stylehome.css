@@ -1,0 +1,670 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap');
+body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color:#E5E5E5;
+  }
+  
+  :root {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #868e96;
+    --gray-dark: #343a40;
+    --primary: #fed136;
+    --secondary: #868e96;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --ahref: #0097F7;
+    --ahref-line: #9bd9ff;
+    --padding: 100px 0 100px 0;
+    --transition: .3s ease-in-out;
+    --shadow: 0 20px 20px rgba(13, 121, 221, 0.185);
+    --shadow02: 0 20px 20px rgba(221, 13, 169, 0.185);
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+  }
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+  }
+.navbar-nav, .navbar-toggler{
+    position: relative;
+    left:-4px;
+}
+.navitem{
+    font-family: 'Tangerine', cursive;
+    color:var(--primary);
+    font-weight: 700;
+}
+.jumbotron{
+    position:absolute;
+    top:8%;
+    padding:0 0 0 0;
+    margin:0 0 0 0;
+}
+.img-car{
+    width:100%;
+    height:500px;
+}
+#services-kit{
+    position:absolute;
+    top:calc(8% + 500px);
+}
+
+#serv{
+    position: relative;
+    top:70px;
+}
+footer{
+    width:100%;
+    left:0%;
+    right:0%;
+    height:40%;
+}
+@media(max-width:576px){
+    footer{
+        position: absolute;
+        bottom: -730%;
+        background-color: #212529;
+        color:var(--primary);
+    }
+    #activites{
+        position: absolute;
+        top:350%;
+    }
+    #tools-title{
+        position: relative;
+        top:-100px;
+    }
+    #tools{
+        position: absolute;
+        top:1750px;
+        background-color: #E5E5E5;
+        width:100%;
+        height:100%;
+    }
+    #reactimg{
+        position: relative;
+        top:0px;
+    }
+    #react-title{
+        position: relative;
+        top:20px;
+    }
+    svg{
+        width:240px;
+        height:240px;
+    }
+    .navbar-toggler{
+        position: relative;
+        left:0px;}
+    .navitem{font-size:1.7rem}
+    .carousel-caption{
+        position: absolute;
+        top:25%;
+        left:12%s;
+    }
+    .cars{
+        position: absolute;
+        top:8%;
+        width:100%;
+        height:50%;
+    }
+    header{
+        position: absolute;
+        top:45%;
+        right:1%;
+        left:1%;
+        width:100%;
+        height:322%;
+        background-color: #E5E5E5;
+    }
+    .services-title{
+        font-size:4rem;
+        position: absolute;
+        top:0%;
+        justify-content: center;
+        text-align: center;
+        left:32%;
+    }
+    .services-subtitle{
+        font-family: 'Tangerine', cursive;
+        color:var(--primary);
+        font-weight: 700;
+        font-size:1.5rem;
+        position: absolute;
+        top:8%;
+        justify-content: center;
+        text-align: center;
+        left:30%;
+
+    }
+    .service{
+        background-color: #E5E5E5;
+        width:100%;
+        height:350%;
+        position: absolute;
+        top:20%;
+    }
+}
+@media(min-width:576px)and (max-width:769px){
+    footer{
+        position: absolute;
+        bottom: -730%;
+        background-color: #212529;
+        color:var(--primary)s
+    }
+    #activites{
+        position: absolute;
+        top:350%;
+    }
+    #tools-title{
+        position: relative;
+        top:-100px;
+    }
+    #tools{
+        position: absolute;
+        top:1750px;
+        background-color: #E5E5E5;
+        width:100%;
+        height:100%;
+    }
+    #reactimg{
+        position: relative;
+        top:-10px;
+    }
+    #react-title{
+        position: relative;
+        top:0px;
+    }
+    .navitem{font-size:2.2rem}
+    .carousel-caption{
+        position: absolute;
+        top:25%;
+        left:12%;
+    }
+    .cars{
+        position: absolute;
+        top:8%;
+        width:100%;
+        height:60%;
+    }
+    header{
+        position: absolute;
+        top:50%;
+        right:1%;
+        left:1%;
+        width:100%;
+        height:322%;
+        background-color: #E5E5E5;
+    }
+    .services-title{
+        font-size:3.8rem;
+        position: absolute;
+        top:0%;
+        justify-content: center;
+        text-align: center;
+        left:35%;
+    }
+    .services-subtitle{
+        font-family: 'Tangerine', cursive;
+        color:var(--primary);
+        font-weight: 700;
+        font-size:3.5rem;
+        position: absolute;
+        top:8%;
+        justify-content: center;
+        text-align: center;
+        left:30%;
+
+    }
+    .service{
+        background-color: #E5E5E5;
+        width:100%;
+        height:350%;
+        position: absolute;
+        top:40%;
+    }
+}  
+@media(min-width:768px)and (max-width:992px){
+    footer{
+        position: absolute;
+        bottom: -730%;
+        background-color: #212529;
+        color:var(--primary);
+    }
+    #activites{
+        position: absolute;
+        top:350%;
+    }
+    #tools-title{
+        position: relative;
+        top:-30px;
+    }
+    #tools{
+        position: absolute;
+        top:1850px;
+        background-color: #E5E5E5;
+        width:100%;
+        height:100%;
+    }
+    #reactimg{
+        position: relative;
+        top:-10px;
+    }
+    #react-title{
+        position: relative;
+        top:50px;
+    }
+    .navitem{font-size:2.8rem}
+    .carousel-caption{
+        position: absolute;
+        top:25%;
+        left:12%s;
+    }
+    .cars{
+        width:100%;
+        height:80%;
+    }
+
+    header{
+        position: absolute;
+        top:70%;
+        right:1%;
+        left:1%;
+        width:100%;
+        height:322%;
+        background-color: #E5E5E5;
+    }
+    .services-title{
+        font-size:5rem;
+        position: absolute;
+        top:-2%;
+        justify-content: center;
+        text-align: center;
+        left:40%;
+    }
+    .services-subtitle{
+        font-family: 'Tangerine', cursive;
+        color:var(--primary);
+        font-weight: 700;
+        font-size:3.5rem;
+        position: absolute;
+        top:2%;
+        justify-content: center;
+        text-align: center;
+        left:32%;
+
+    }
+    .service{
+        background-color: #E5E5E5;
+        width:100%;
+        height:350%;
+        position: absolute;
+        top:35%;
+    }
+} 
+@media(min-width:992px)and (max-width:1200px){
+    footer{
+        position: absolute;
+        bottom: -730%;
+        background-color: #212529;
+        color:var(--primary);
+    }
+    #activites{
+        position: absolute;
+        top:240%;
+    }
+    #tools-title{
+        position: relative;
+        top:-100px;
+    }
+    #tools{
+        position: absolute;
+        top:1450px;
+        background-color: #E5E5E5;
+        width:100%;
+        height:100%;
+    }
+    #reactimg{
+        position: relative;
+        top:30px;
+        left:200px;
+    }
+    #react-title{
+        position: relative;
+        top:120px;
+        left:100px;
+    }
+    #flutter-title{
+        position: relative;
+        left:50px;
+    }
+    .navitem{font-size:3.2rem;}
+    .carousel-caption{
+        position: absolute;
+        top:15%;
+        left:-12%s;
+    }
+    .cars{
+        width:100%;
+        height:90%;
+    }
+    header{
+        position: absolute;
+        top:85%;
+        right:1%;
+        left:1%;
+        width:100%;
+        height:162%;
+        background-color: #E5E5E5;
+    }
+    .services-title{
+        font-size:5rem;
+        position: absolute;
+        top:0%;
+        justify-content: center;
+        text-align: center;
+        left:45%;
+    }
+    .services-subtitle{
+        font-family: 'Tangerine', cursive;
+        color:var(--primary);
+        font-weight: 700;
+        font-size:6rem;
+        position: absolute;
+        top:4%;
+        justify-content: center;
+        text-align: center;
+        left:32%;
+
+    }
+    .service{
+        background-color: #E5E5E5;
+        width:100%;
+        height:350%;
+        position: absolute;
+        top:50%;
+    }
+}
+@media(min-width:1200px){
+    footer{
+        position: absolute;
+        bottom: -550%;
+        background-color: #212529;
+        color:var(--primary);
+    }
+    #activites{
+        position: absolute;
+        top:320%;
+    }
+    #tools-title{
+        position: relative;
+        top:-100px;
+    }
+    #tools{
+        position: absolute;
+        top:1250px;
+        background-color: #E5E5E5;
+        width:100%;
+        height:100%;
+    }
+    #reactimg{
+        position: relative;
+        top:30px;
+        left:190px;
+    }
+    #react-title{
+        position: relative;
+        top:90px;
+    }
+    .navitem{font-size:3.2rem;}
+    .carousel-caption{
+        position: absolute;
+        top:20%;
+        left:-30%;
+    }
+    .cars{
+        width:100%;
+        height:100%;
+    }
+
+    header{
+        position: absolute;
+        top:90%;
+        right:1%;
+        left:1%;
+        width:100%;
+        height:272%;
+        background-color: #E5E5E5;
+    }
+    .services-title{
+        font-size:7rem;
+        position: absolute;
+        top:0px;
+        justify-content: center;
+        text-align: center;
+        left:40%;
+    }
+    .services-subtitle{
+        font-family: 'Tangerine', cursive;
+        color:var(--primary);
+        font-weight: 700;
+        font-size:5rem;
+        position: absolute;
+        top:11%;
+        justify-content: center;
+        text-align: center;
+        left:28%;
+
+    }
+    .service{
+        background-color: #E5E5E5;
+        width:100%;
+        height:350%;
+        position: absolute;
+        top:55%;
+    }
+}  
+.nav-link, .services-title{
+    color:#FEC503;
+    font-weight: 700;
+    font-size:2rem;
+    font-family: Montserrat,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.navbar-toggler{
+    background-color: var(--primary);
+}
+nav{
+    height:8%;
+}
+/* animation */
+
+  #one{
+      animation:glisseone 2s infinite alternate;
+  }
+  #four{
+    animation:glissefour 2s  infinite alternate;
+  }
+  #two{
+    animation:glisseone 2s infinite alternate;
+}
+#three{
+  animation:glissefour 2s  infinite alternate;
+}
+
+  @keyframes glisseone{
+    0%{
+        transform: translateX(0)
+    }
+    100%{
+        transform: translateX(72.5px)
+    }
+  }
+  @keyframes glissefour{
+    0%{
+        transform: translateX(0)
+    }
+    100%{
+        transform: translateX(-74.5px)
+    }
+  }
+#reactig{
+    animation :rota 4s infinite alternate;
+}
+#flutt{
+    animation:glissefour 2s  infinite alternate;
+}
+@keyframes rota{
+    from{
+        transform: rotateZ(0deg);
+    }
+    to{
+        transform: rotateZ(360deg);
+    }
+}
+
+/* projects */
+.projects {
+    padding: var(--padding);
+    background-color: var(--whitesmoke);
+}
+
+.projects .row {
+    margin-top: 60px;
+}
+
+.projects .row .project-container {
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.projects .row .project-container .child {
+    background-color: var(--white);
+    padding: 10px 10px 20px 10px;
+    border-radius: 5px;
+    width: 98%;
+}
+
+.projects .row .project-container .project-img {
+    height: 40vh;
+    width: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+}
+
+.projects .row .project-container .project-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+}
+
+.projects .row .project-container .project-img span.tag {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border-radius: 1000px;
+    padding: 10px;
+    font-size: 0.77rem;
+    font-weight: 500;
+    color: #fff;
+    background-color: #e6137c;
+    text-transform: capitalize;
+}
+
+.projects .row .project-container .details {
+    padding: 20px 15px;
+}
+
+.projects .row .project-container .details span {
+    font-weight: 500;
+    font-size: 0.88rem;
+    letter-spacing: 1px;
+    color: var(--secondary);
+    text-transform: uppercase;
+}
+
+.projects .row .project-container .details h4 {
+    text-transform: capitalize;
+    font-weight: 700;
+    color: var(--black);
+    font-size: 1.2em;
+}
+
+.projects .row .project-container .details p {
+    color: var(--par);
+    line-height: 25px;
+    font-size: 0.88rem;
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+.projects .row .project-container .details a {
+    text-transform: uppercase;
+    color: var(--ahref);
+    font-weight: 600;
+    display: inline-block;
+    position: relative;
+    transition: .2s ease-in-out;
+}
+
+.projects .row .project-container .details a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    height: 2px;
+    width: 15%;
+    background-color: var(--ahref-line);
+    transition: all cubic-bezier(0.25, 0.1, 0.28, 1.54) 0.32s;
+}
+
+.projects .row .project-container .child:hover a::after {
+    width: 90%;
+    background-color: var(--ahref);
+}
+
+.projects .row .project-container .details a:hover {
+    color: var(--secondary);
+}
+
+.projects .row .project-container .details a:hover::after {
+    background-color: var(--secondary);
+}
+.project-container :hover{
+    background-color:var(--warning);
+
+}
+/* footer */
+.service-container{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
